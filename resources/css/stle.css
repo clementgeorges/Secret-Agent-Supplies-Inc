@@ -14,6 +14,7 @@ body {
   max-width: 960px;
   margin: auto;
   padding: 0.66rem;
+  display: flex;
 }
 
 .companyname .headcontainer {
@@ -24,7 +25,7 @@ body {
 .headcontainer img {
   margin-left: 0.5rem;
   margin-right: 1rem;
-  height: 1.5rem
+  height: 1.5rem;
 }
 
 .headcontainer span {
@@ -60,6 +61,7 @@ body {
 .bannertext .newarrivals {
   font-size: 1rem;
   margin-bottom: 0.25rem;
+  margin-top: 0.25rem;
 }
 
 .bannertext .sport {
@@ -85,6 +87,14 @@ nav {
 .navtext span {
   padding: 3.2rem;
 }
+
+nav .mobile-nav {
+  display: none;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+
 
 /* Products  */
 
@@ -173,4 +183,103 @@ footer {
   height: 5rem;
   display: flex;
   align-items: center;
+}
+
+/* mobile css */
+
+@media only screen and (max-width: 1024px) {
+  .bannerblock {
+    margin: 0px;
+  }
+  nav .mobile-nav {
+    display: block;
+    text-align: center;
+  }
+  .navtext{
+    display: none;
+  }
+  .pen,
+  .watch,
+  .glasses {
+    width: 47%;
+  }
+
+  .glasses {
+    display: none;
+  }
+
+}
+
+@media only screen and (max-width: 470px) {
+  .headcontainer span {
+    display: none;
+  }
+  .headcontainer {
+    justify-content: center;
+  }
+
+  .banner {
+    height: 15rem;
+  }
+
+  .bannertext {
+    margin-top: 10rem;
+    width: 100%;
+    padding: 0px
+
+  }
+  .bannerblock {
+    width: 100%;
+  }
+
+  .bannertext .newarrivals {
+    font-size: 0.77rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+  }
+  .bannertext .sport {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 2rem
+  }
+
+  .prodcontainer{
+    width: 100%;
+  }
+
+  .products {
+    justify-content: center;
+  }
+
+  .pen,
+  .watch,
+  .glasses {
+    width: 90%;
+  }
+  .watch {
+    display: none;
+  }
+  .buscontainer {
+    width: 100%;
+  }
+  .infocontainer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .location,
+  .tradinghours {
+    width: 90%;
+  }
+  .title {
+    margin-top: 0.5rem;
+  }
+
+  .footercontainer {
+    width: 100%;
+  }
+
+  .copy {
+    justify-content: center;
+  }
+
 }
