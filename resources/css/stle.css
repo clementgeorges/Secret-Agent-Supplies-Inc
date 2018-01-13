@@ -63,3 +63,23 @@ body {
 }
 
 /* Navigation Section  */
+
+nav {
+  width: 100%;
+  background-color: firebrick;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navtext {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.navtext span {
+  padding: 3.2rem;
+}
+
+/* Products  */
