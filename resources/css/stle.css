@@ -121,3 +121,34 @@ nav {
   padding: 0.5rem;
   display: block;
 }
+
+/* Business Info */
+
+.buscontainer {
+  width: 960px;
+  margin: auto;
+}
+
+.infocontainer {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+}
+
+.location,
+.tradinghours {
+  width: 35%;
+}
+
+.locword,
+.title {
+  background-color: black;
+  color: white;
+  padding: 1rem 2rem;
+}
+
+.location span,
+.tradinghours span {
+  display: block;
+}
