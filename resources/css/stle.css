@@ -1,0 +1,30 @@
+body {
+  font-size: 18;
+  font-family: Helvetica;
+}
+
+/* Company Head Section  */
+
+.companyname {
+  background-color: black;
+  color: white;
+}
+
+.headcontainer {
+  max-width: 960px;
+  margin: auto;
+  padding: 0.66rem;
+}
+
+.companyname .headcontainer {
+  display: flex;
+  align-items: center;
+}
+
+.headcontainer img {
+  margin-left: 0.5rem;
+  margin-right: 1rem;
+  height: 1.5rem
+}
+
+/* Banner Section */
