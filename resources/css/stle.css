@@ -41,6 +41,11 @@ body {
   height: 25rem;
 }
 
+.bannerblock {
+  width: 960px;
+  margin: auto;
+}
+
 .bannertext {
   background: black;
   color: white;
@@ -49,7 +54,6 @@ body {
   font-weight: bold;
   width: 20rem;
   margin-top: 9rem;
-  margin-left: 30.5rem;
   padding: 2rem 3rem;
 }
 
@@ -151,4 +155,22 @@ nav {
 .location span,
 .tradinghours span {
   display: block;
+}
+
+/* Footer Section  */
+
+.footercontainer {
+  width: 960px;
+  margin: auto;
+}
+
+footer {
+  background-color: black;
+  color: white;
+}
+
+.copy {
+  height: 5rem;
+  display: flex;
+  align-items: center;
 }
