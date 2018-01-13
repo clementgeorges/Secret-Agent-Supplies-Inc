@@ -1,5 +1,5 @@
 body {
-  font-size: 18;
+  font-size: 18px;
   font-family: Helvetica;
 }
 
@@ -27,4 +27,39 @@ body {
   height: 1.5rem
 }
 
+.headcontainer span {
+  font-size: 1rem;
+}
+
 /* Banner Section */
+
+.banner {
+  background-image: url("../../resources/images/moto.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 25rem;
+}
+
+.bannertext {
+  background: black;
+  color: white;
+  flex-direction: column;
+  display: inline-flex;
+  font-weight: bold;
+  width: 20rem;
+  margin-top: 9rem;
+  margin-left: 30.5rem;
+  padding: 2rem 3rem;
+}
+
+.bannertext .newarrivals {
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.bannertext .sport {
+  font-size: 2rem;
+}
+
+/* Navigation Section  */
